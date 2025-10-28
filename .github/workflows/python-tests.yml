@@ -28,5 +28,4 @@ jobs:
 
       - name: Run tests
         run: |
-          export PYTHONPATH=$PYTHONPATH:$(pwd)/src
           pytest -q tests --disable-warnings --maxfail=1

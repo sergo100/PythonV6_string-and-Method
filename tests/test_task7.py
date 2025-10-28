@@ -1,6 +1,6 @@
 import io
 import sys
-from src.task_7 import solve
+from task_7 import solve
 
 def run_io_fun(input_data):
     sys.stdin = io.StringIO(input_data)
