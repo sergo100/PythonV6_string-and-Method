@@ -108,6 +108,84 @@ AbracadabrA
 Sample Output 4:
 AAbracadabr
 ```
+## Задание 6.
+
+В файле `tasks/task5.py` 
+
+На вход программе поступает строка, состоящая как из заглавных, так и из строчных букв. Ваша задача — преобразовать строку так, чтобы все строчные символы заменились на заглавные, все заглавные - на строчные. Символы пунктуации и цифры не нужно преобразовывать.
+
+В качестве ответа нужно вывести полученную строку.
+```
+Sample Input 1:
+PyThoN besT of The BeST
+
+Sample Output 1:
+pYtHOn BESt OF tHE bEst
+
+Sample Input 2:
+Я у мАмы ХацКер
+
+Sample Output 2:
+я У МаМЫ хАЦкЕР
+
+Sample Input 3:
+lED zEPPELiN
+
+Sample Output 3:
+Led ZeppelIn
+```
+## Задание 7.
+
+В файле `tasks/task7.py` 
+
+На вход программе поступает строка, состоящая как из заглавных, так и из строчных букв. Ваша задача — преобразовать строку так, чтобы первая буква у каждого слова стала маленькой, а остальные буквы превратились в заглавные. Символы пунктуации и цифры не нужно преобразовывать.
+В качестве ответа нужно вывести полученную строку.
+
+```
+Sample Input 1:
+Every You Every Me
+
+Sample Output 1:
+eVERY yOU eVERY mE
+
+Sample Input 2:
+RunnING up That HILL
+
+Sample Output 2:
+rUNNING uP tHAT hILL
+
+Sample Input 3:
+Sleeping with GHOSTS
+
+Sample Output 3:
+sLEEPING wITH gHOSTS
+```
+## Задание 8.
+
+В файле `tasks/task8.py` 
+
+На вход программе поступает строка, ваша задача — вывести на экран индекс последней найденной латинской буквы a.
+Если такого символа во введенной строке нет, выведите значение -1.
+
+```
+Sample Input 1:
+banana
+
+Sample Output 1:
+5
+
+Sample Input 2:
+cat
+
+Sample Output 2:
+1
+
+Sample Input 3:
+zoo
+
+Sample Output 3:
+-1
+```
 
 ## Требования
 1. Используйте только то, что мы изучили (переменные, ввод `input`, срезы, методы строк).
