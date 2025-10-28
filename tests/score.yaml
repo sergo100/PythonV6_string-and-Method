@@ -1,0 +1,48 @@
+tasks:
+  - name: "Чётные индексы"
+    id: task_1
+    entry: src/task_1.py
+    tests: tests/test_task_1.py
+    points: 12
+
+  - name: "Нечётные индексы"
+    id: task_2
+    entry: src/task_2.py
+    tests: tests/test_task_2.py
+    points: 12
+
+  - name: "Переворот строки"
+    id: task_3
+    entry: src/task_3.py
+    tests: tests/test_task_3.py
+    points: 12
+
+  - name: "Каждый третий символ с конца"
+    id: task_4
+    entry: src/task_4.py
+    tests: tests/test_task_4.py
+    points: 12
+
+  - name: "Перенос последней буквы в начало"
+    id: task_5
+    entry: src/task_5.py
+    tests: tests/test_task_5.py
+    points: 12
+
+  - name: "Инвертирование регистра букв"
+    id: task_6
+    entry: src/task_6.py
+    tests: tests/test_task_6.py
+    points: 12
+
+  - name: "Первая буква маленькая, остальные заглавные"
+    id: task_7
+    entry: src/task_7.py
+    tests: tests/test_task_7.py
+    points: 14
+
+  - name: "Последняя позиция буквы 'a'"
+    id: task_8
+    entry: src/task_8.py
+    tests: tests/test_task_8.py
+    points: 14
