@@ -1,6 +1,11 @@
 import io
 import sys
-from task_8 import solve
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from tasks.task8 import solve
+
 
 def run_io_fun(input_data):
     sys.stdin = io.StringIO(input_data)
@@ -12,8 +17,10 @@ def run_io_fun(input_data):
 def test_sample_1():
     assert run_io_fun("banana\n") == "5"
 
+
 def test_sample_2():
     assert run_io_fun("cat\n") == "1"
+
 
 def test_sample_3():
     assert run_io_fun("zoo\n") == "-1"
